@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+/.claude/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+/app/build/
+/app/release/
+
+# Log/profile files
+*.log
+*.hprof
+
+# Keystores (never commit real signing keys)
+*.jks
+*.keystore
