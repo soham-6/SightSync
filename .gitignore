@@ -19,3 +19,16 @@ local.properties
 # Keystores (never commit real signing keys)
 *.jks
 *.keystore
+
+# Phase 2/3: ML conversion intermediates (regenerable via tools/ml/export_onnx.py + onnx2tf)
+tools/ml/*.pt
+tools/ml/*.onnx
+tools/ml/*_saved_model/
+tools/ml/datasets/
+tools/ml/runs/
+tools/ml/__pycache__/
+tools/ml/*.log
+tools/ml/calibration_image_sample_data_*.npy
+tools/ml/labels.txt
+tools/ml/coco128/
+tools/ml/coco128.zip
